@@ -1,0 +1,45 @@
+***** INFO *****
+6 pixels per prop board
+7 prop boards (4 original, 3 easyPCB)
+42 pixels total
+126 RBG channels (42x3)
+
+
+***** LEGEND *****
+'--' = tombstone (2 pix wide)
+'+'	 = cross lantern
+'*'  = light sconce
+
+
+***** 2018 - 30x2 layout *****
+         1         2         3
+123456789012345678901234567890
+   --        --  --  --  **--
++--  --------  --  --  --    +
+
+***** 2019 - 28x3 layout *****
+         1         2         3
+123456789012345678901234567890
+         --    --      **
+ --  --  ----            --
++  --  --    --  ------    +
+
+
+
+***** 30x2 tombstone assignment *****
+         1         2         3
+123456789012345678901234567890
+   11        33  33  44  6666
+511  11222222  33  44  44    6
+
+
+***** channel assignments (each board pix 0..2 are for mode, 3..20 for pixels) *****
+board 1: 0..20 universe 1 (0..2 mode, 3..5 px1, 6..8 px2, 9..11 px3, 12..14 px4, 15..17 px5, 18..20 px6)
+board 2: 0..20 universe 2 (0..2 mode, 3..5 px1, 6..8 px2, 9..11 px3, 12..14 px4, 15..17 px5, 18..20 px6)
+board 3: 0..20 universe 3 (0..2 mode, 3..5 px1, 6..8 px2, 9..11 px3, 12..14 px4, 15..17 px5, 18..20 px6)
+board 4: 0..20 universe 4 (0..2 mode, 3..5 px1, 6..8 px2, 9..11 px3, 12..14 px4, 15..17 px5, 18..20 px6)
+board 5: 0..20 universe 5 (0..2 mode, 3..5 px1, 6..8 px2, 9..11 px3, 12..14 px4, 15..17 px5, 18..20 px6)
+board 6: 0..20 universe 6 (0..2 mode, 3..5 px1, 6..8 px2, 9..11 px3, 12..14 px4, 15..17 px5, 18..20 px6)
+
+
+
